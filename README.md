@@ -19,11 +19,18 @@ The default supported ROM formats are: **.cso .iso .chd .rvz**. More file types 
 * After executing the script, all the files in the folder will be scanned and, if multiple files exist of the same game, a new folder with the game name will be created\*. All game files will be moved to that folder and a `.m3u` playlist will be created containing all disc names.
 * `.m3u` will also be added to the folder name because some emulation frontends need that in order to display the all files as a single game.
   
-**\*** The character used for delimiting the game name can be changed in the source code. The default one is **\)**
+**\*** The character used for delimiting the game name can be changed with a command line argument specified in the next section. The default one is **\)**
 
 ## Arguments
-- s
-- b
+The default execution of the script can be modified with the following arguments:
+
+**-s** *"symbol"* : &nbsp;&nbsp;
+
+Specifies the symbol used for delimiting a game name. The default one is \(.
+
+**-b** : &nbsp;&nbsp; 
+
+Removes the *.m3u* ending from folder names
 
  ## Example
 
@@ -42,6 +49,3 @@ Metal Gear Solid (USA).m3u
  └-> Metal Gear Solid (USA) (Disc 2).chd
  └-> Metal Gear Solid (USA).m3u
 ```
-
-## Redistribution
-Feel free to take this code and modify it as you want ;)
