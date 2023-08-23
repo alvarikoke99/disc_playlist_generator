@@ -32,11 +32,9 @@ Specifies the symbol used for delimiting a game name. The default one is \(.
 
 Removes the *.m3u* ending from folder names
 
- ## Example
+## Example
 
- Having the files:
-  
-
+Having the files:
 ```
 Metal Gear Solid (USA) (Disc 1).chd
 Metal Gear Solid (USA) (Disc 2).chd
