@@ -13,6 +13,7 @@ venv/
 *.idea/
 *.pydevproject
 *.spec
+*.zip
 
 # Ignore any other temporary or system files
 *.bak
