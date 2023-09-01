@@ -10,7 +10,7 @@ The default supported ROM formats are: **.cso .iso .chd .rvz**. More file types 
   <img src="./img/pcsx2.png" alt="drawing" width="200"/> &nbsp;&nbsp;
   <img src="./img/rpcs3.png" alt="drawing" width="200"/> &nbsp;&nbsp;
 
-  <img src="./img/wiiu.png" alt="drawing" width="630"/> &nbsp;&nbsp;
+  <img src="./img/wiiu.png" alt="drawing" width="632"/> &nbsp;&nbsp;
 
 ## Usage
 
